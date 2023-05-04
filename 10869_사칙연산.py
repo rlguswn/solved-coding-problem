@@ -1,6 +1,8 @@
-a, b, c = map(int, input().split())
+a, b = input().split()
+a, b = int(a), int(b)
 
-print((a + b) % c)
-print(((a % c) + (b % c)) % c)
-print((a * b) % c)
-print(((a % c) * (b % c)) % c)
+print(a+b)
+print(a-b)
+print(a*b)
+print(int(a/b))
+print(a%b)

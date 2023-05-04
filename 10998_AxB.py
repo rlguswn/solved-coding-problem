@@ -1,7 +1,2 @@
-a, b = map(int, input().split())
-
-print(a+b)
-print(a-b)
-print(a*b)
-print(int(a/b))
-print(a%b)
+A, B = input().split()
+print(int(A)*int(B))
