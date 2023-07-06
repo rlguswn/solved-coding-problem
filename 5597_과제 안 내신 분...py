@@ -6,5 +6,6 @@ for i in range(28):
     student.remove(n)
 
 student.sort()
+
 print(student[0])
 print(student[1])
